@@ -1,0 +1,11 @@
+.myDiv {
+    border: 10px outset;    
+    text-align: center;
+    background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg);
+    color: white;
+    min-height: 500px;
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+  }
