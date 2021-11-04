@@ -32,3 +32,15 @@
     padding-bottom: 38px;
     text-align: center;
   }
+  .my-container{
+    background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg);
+    color: white;
+    min-height: 500px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+  }
+  .social-icons{
+      text-align: center;
+  }
