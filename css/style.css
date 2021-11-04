@@ -9,3 +9,16 @@
     background-size: cover;
     background-color: transparent;
   }
+
+  .myContainer{
+    border: 10px outset;
+    text-align: center;
+    background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg);
+    color: white;
+    min-height: 500px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+
+  }
