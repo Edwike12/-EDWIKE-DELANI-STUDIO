@@ -11,7 +11,7 @@ This project is a web application for EDWIKE DELANI STUDIO that shows details ab
 
 ## known Bugs
  -The site is not responsive enough for some devices.
- - Mailchimp does not function properly.
+ - script.js does not function properly
 
 
 
