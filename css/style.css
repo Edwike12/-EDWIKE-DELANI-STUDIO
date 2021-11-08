@@ -43,7 +43,7 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: grey;
+    background-color: lightgrey;
   }
   
   .card:hover .card-img-overlay {
@@ -70,22 +70,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;
-  }
-
-  .social-icons{
-      text-align: center;
   } 
-  .delaniContainer h5{
+  .social-icons{
+    padding-inline-end: 0pt;
+}
+  h5{
     text-align: center;
   }
-   .delaniContainer h6{
-    text-align: center;
+  input[type=text],input[type=email],#mc_embed_signup {
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
   }
-  input[type=text],
-        input[type=email],
-        #mc_embed_signup {
-            background: transparent;
-            color: white;
-            font-size: 20px;
-            font-family: 'Copse', serif;
-        }
+  footer{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Delius Swash Caps', cursive;
+  }
