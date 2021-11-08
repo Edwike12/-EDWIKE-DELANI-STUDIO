@@ -5,7 +5,14 @@ EDWIKE DELANI STUDIO
 EDWIKE NYAUNCHO
 
 # Description
-Recreating a landing page for a fictional studio using Bootstrap and jQuery
+This project is a web application for EDWIKE DELANI STUDIO that shows details about the services it offers, has information about the studio, a portfolio section ,a form that enables users to send their messages and concern to the studio and also shows its social icons.
+
+
+
+## known Bugs
+The site is not responsive enough for some devices.
+mail chimp API does not function properly.
+
 
 
 # BDD
@@ -22,7 +29,7 @@ Enter your details on the contact us section and a pop up message will show on t
 
 
 ## setup and installation
-clone this repository https://github.com/Edwike12/Delani-studio.git 
+clone this repository https://github.com/Edwike12/-EDWIKE-DELANI-STUDIO.git
 open terminal to work in EDWIKE DELANI STUDIO directory 
 open idex.html in your browser
 
