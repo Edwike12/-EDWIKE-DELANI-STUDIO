@@ -79,7 +79,6 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <h3>WHAT WE DO</h3>
-          <!-- */<figure>*/ -->
           <div class="row">
             <div class="col-md-4 text-center">
               <div id="design_showing">
@@ -101,18 +100,13 @@
               </div>
             </div>
             <div class="col-md-4 text-center">
-              <div class="development-showing">
+              <div id="development_showing">
                 <image
-                  id="development"
                   src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/services_icons/dev_icon.png"
                 ></image>
                 <p>DEVELOPMENT</p>
               </div>
-              <div
-                id="development-details"
-                class="development-details"
-                style="display: none"
-              >
+              <div id="development_details" style="display: none">
                 <p>
                   All engineers are fluent in the latest enterprise, mobile and
                   web development technologies. They collaborate with your team
@@ -123,14 +117,14 @@
               </div>
             </div>
             <div class="col-md-4 text-center">
-              <div class="product-showing">
+              <div id="product_showing">
                 <image
                   id="product"
                   src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/services_icons/product_icon.png"
                 ></image>
                 <p>PRODUCT MANAGEMENT</p>
               </div>
-              <div class="product-details" style="display: none">
+              <div id="product_details" style="display: none">
                 <p>
                   Planning and development is iterative. Because we are
                   constantly coding and testing, the products we build are
@@ -140,7 +134,6 @@
               </div>
             </div>
           </div>
-          <!-- </figure>  -->
         </div>
       </div>
     </div>
@@ -374,18 +367,46 @@
     <script>
       document.getElementById("design_showing").addEventListener(
         "click",
-        function () {
-          //   document.getElementById("design_details").style.display = "block";
-          if (
-            document.getElementById("design_details").style.display == "none"
-          ) {
-            document.getElementById("design_details").style.display = "block";
+         function () {
+           //   document.getElementById("design_details").style.display = "block";
+           if (
+             document.getElementById("design_details").style.display == "none"
+           ) {
+             document.getElementById("design_details").style.display = "block";
           } else {
-            document.getElementById("design_details").style.display = "none";
+           document.getElementById("design_details").style.display = "none";
           }
-        },
-        false
-      );
-    </script>
+         },
+         false
+       ); 
+       document.getElementById("development_showing").addEventListener(
+        "click",
+         function () {
+           //   document.getElementById("design_details").style.display = "block";
+           if (
+             document.getElementById("development_details").style.display == "none"
+           ) {
+             document.getElementById("development_details").style.display = "block";
+          } else {
+           document.getElementById("development_details").style.display = "none";
+          }
+         },
+         false
+       ); 
+       document.getElementById("product_showing").addEventListener(
+        "click",
+         function () {
+           //   document.getElementById("design_details").style.display = "block";
+           if (
+             document.getElementById("product_details").style.display == "none"
+           ) {
+             document.getElementById("product_details").style.display = "block";
+          } else {
+           document.getElementById("product_details").style.display = "none";
+          }
+         },
+         false
+       );
+     </script>
   </body>
 </html>
